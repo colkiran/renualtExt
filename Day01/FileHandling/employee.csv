@@ -1,3 +1,4 @@
+empid,empname,gender,desig,dept,salary
 101,JAN,m,MGR,HR,1000
 102,FEB,f,PL,ADMIN,1500
 103,MAR,f,PM,FINANCE,2000
