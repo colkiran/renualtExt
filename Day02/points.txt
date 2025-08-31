@@ -1,0 +1,34 @@
+df=df.rename(columns={"rank":"Sıra","personName":"İsim","age":"Yaş",
+                      "finalWorth":"Servet","category":"Kategori",
+                       "country":"Ülke", "gender":"Cinsiyet"})
+
+
+exceptions
+----------
+try block:
+     error prone code is written
+
+except block:
+     
+      print exception message depending on the exception class
+
+else:
+    
+    code written here will get executed if an exception is not caught
+
+finally block:
+
+    will execute in all cases
+
+
+Web Scrapping
+--------------
+permission to access data from the site
+
+
+
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
+
+
