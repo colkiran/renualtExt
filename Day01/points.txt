@@ -1,0 +1,135 @@
+Core Python 
+-----------
+Python - Data Structures - Lists, Dictionaries, Tuples, set
+
+Functions - call a function, pass args to functions, variable length argument (*args, **kwargs)
+            pass by value, pass by reference, scope of a variable (local, global, non local), lambdas, 
+	    closures, higher order functions, decorator
+
+class 	  - class,  
+
+
+Data Handling
+Introduction to the Pandas Library
+Reading/Exporting Data with Pandas
+Advanced Data Manipulation Techniques
+Data Visualization with Matplotlib (Optional Session)
+
+
+Pytest Framework
+Pytest Installation and Execution
+Writing and Reporting Test Assertions
+Fixture Implementation and Management
+Attribute-Based Test Marking
+Parametrization of Fixtures and Test Functions
+
+
+Python 
+
+File Handling
+-------------
+ascii format
+
+Open a file in different modes - read, write, append
+
+open the file in read mode
+--------------------------
+if the file does not exists (mis-spelt) - raises and exception - FileNotFound
+
+if the file exists then it opens the file in read mode (we can only read the contents of the file) and read mode is the default mode.
+
+open the file in write mode
+---------------------------
+if the file exists then it will delete the contents of the file and starts adding the data newly into the file
+
+if the file does not exits then creates a new file with the name specified and adds the data into the file
+
+open the file in append mode
+----------------------------
+if the file already exists then opens the file and appends the data into the file without disturbing the old contents
+
+if the file does not exits then creates a new file with the name specified and adds the data into the file
+
+csv file is the same as text file (Same format ascii), comma separated values
+
+Excel - openpyxl
+
+seek
+----
+seek(offset, whence)
+
+offset - no of bytes
+whence - 0  - BOF
+	 1  - Current Position
+	 2  - EOF
+
+seek(350, 0)
+seek(-185, 1)
+seek(225, 1)
+seek(-400, 2)
+seek(-10, 0)
+
+From emp.csv read the data and extract the following details
+
+1. count of male(m) and females(f)
+2. distinct list of departments
+3. distinct list of designations
+4. sum of all salaries
+
+5. sum of all female HR salaries
+
+[ws.cell(row=i, column=source_col).value for i in range(1, ws.max_row)]
+
+
+Pandas
+------
+Pandas was created by Wes McKinney 2008
+
+pandas is basically used to extract data from the source -> cleansing -> load
+
+List- 
+     		 one dimension
+indexing   -  	integer based	
+data types - 	heterogenous
+performance - 	small tasks
+functionality - basic iteration, slicing
+missing data  - None, "NA"
+
+Pandas - 
+      series(1D), DataFrame(2D)
+indexing   -	labeled, hierarchical or int based
+data types - 	column wise consistent type
+performance - 	large scale data
+functionality - builtin methods for filtering, grouping, merging reshaping
+missing data  - isna(), fillna(), dropna()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Openpyxl
+3. Data Visualization
+4. Pandas
+5. Web Scraping(BeautifulSoup)
+6. Advance Level
+7. Exception handling
+
+
+
+from emojis import emojis
+
+1. emojis - module (library)
+2. emojis - class
+
+
+
+
